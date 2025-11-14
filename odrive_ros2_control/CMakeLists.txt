@@ -10,6 +10,7 @@ find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_auto REQUIRED)
 find_package(pluginlib REQUIRED)
 find_package(rclcpp REQUIRED)
+include(pluginlib_export_plugin_description_file)
 ament_auto_find_build_dependencies()
 
 ament_export_dependencies(rosidl_default_runtime)
